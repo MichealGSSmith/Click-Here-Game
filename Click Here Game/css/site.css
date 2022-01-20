@@ -1,0 +1,192 @@
+/*
+
+Author: Micheal Smith #0777761
+ProjectName: CLick Here Game
+Project date: 2022-01-19
+Project Time Total: 
+Css Name: site.css
+
+**********************************
+TABLE OF CONTENTS
+
+1. Font Faces
+2. Nav styles
+3. Header styles
+4. Body Styles
+5. Main/Article/div/section styles
+6. Aside styles
+7. footer styles
+8. img styles
+9. Paragraph styles
+
+***********************************
+*/
+
+/**********************************
+Font faces */
+
+
+/**********************************
+Nav styles */
+
+
+/**********************************
+header styles */
+h1 {
+    font-size: 2.5em;
+    color: mediumpurple;
+    text-align: center;
+    text-shadow: purple 1px 2px 2px;
+    
+}
+
+/**********************************
+body styles */
+body {
+    height: 100%;
+    max-width: 100%;
+    margin: auto;
+}
+
+/**********************************
+Main/article styles/ Div/ Section */
+ 
+section .header {
+    color: aqua;
+}
+ * .hidden {
+    display: none;
+}
+
+* .visible {
+    display: flex;
+}
+
+.item-1 {
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    color: yellow;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.item-2 {
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    color: yellow;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.item-3 {
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    color: yellow;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.item-4 {
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    color: yellow;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.item-5 {
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    color: yellow;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.item-6 {
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    color: yellow;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.item-7 {
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    color: yellow;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.item-8 {
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    color: yellow;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.item-9 {
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    color: yellow;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.content-wrapper {
+    width: 33%;
+    height: 250px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+/**********************************
+Aside styles */
+
+
+/**********************************
+footer styles */
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: gold;
+}
+
+/**********************************
+img styles */
+
+
+/**********************************
+Paragraph Styles */
+
+p {
+    width: 100%;
+    font-size: 3vw;
+}
