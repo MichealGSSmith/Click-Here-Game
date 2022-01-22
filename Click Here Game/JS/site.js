@@ -10,8 +10,11 @@ $(document).ready(function() {
         //just seeing if it clicking or not
         console.log('it clicking');
         //adding class visible and removing hidden from the next one in line
-
-        
+        elem.next('section.item').toggle(function(){
+            $(this).addClass('visible');
+        }, function() {
+            $(this).removeClass('hidden');
+        });
         
         
         console.log('it clicking');

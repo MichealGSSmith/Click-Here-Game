@@ -50,15 +50,25 @@ body {
 
 /**********************************
 Main/article styles/ Div/ Section */
+section.item{
+    width: 33%;
+    height: 250px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
  
 section .header {
     color: aqua;
 }
- * .hidden {
+ .hidden {
     display: none;
 }
 
-* .visible {
+.visible {
     display: flex;
 }
 
@@ -75,8 +85,17 @@ section .header {
 .item-2 {
     height: 100%;
     width: 100%;
+    background: linear-gradient(
+        to bottom,
+        #37AFC1,
+        #37AFC1 25%,
+        #057888 25%,
+        #057888
+    );
+    background-size: 100% 20px;
     background-color: gray;
-    color: yellow;
+    color: #F11E11;
+    font-weight: 900;
     justify-content: center;
     align-items: center;
     
@@ -85,8 +104,15 @@ section .header {
 .item-3 {
     height: 100%;
     width: 100%;
-    background-color: gray;
-    color: yellow;
+    background: repeating-linear-gradient(
+        45deg,
+        yellow,
+        yellow 10px,
+        black 10px,
+        black 20px
+    );
+    color: orangered;
+    font-weight: 900;
     justify-content: center;
     align-items: center;
     
@@ -153,16 +179,6 @@ section .header {
 }
 
 
-.content-wrapper {
-    width: 33%;
-    height: 250px;
-    float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    
-}
 
 /**********************************
 Aside styles */
