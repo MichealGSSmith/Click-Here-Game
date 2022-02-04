@@ -12,9 +12,10 @@ $(document).ready(function() {
         console.log('it clicking');
         //adding class visible and removing hidden from the next one in line
         elem.next('section.item').toggle(function(){
-            $(this).removeClass('hidden');$(this).addClass('visible');
+            $(this).removeClass('hidden');
+            $(this).addClass('visible');
         }, function() {
-            ;$(this).addClass('visible');
+            $(this).addClass('visible');
         });
         
         

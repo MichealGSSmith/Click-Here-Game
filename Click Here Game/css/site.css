@@ -61,18 +61,86 @@ section.header {
 
 .visible {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
+/********First Card Design************/
+
+.heart {
+    position: relative;
+    width: 100px;
+    height: 90px;
+    margin-top: 10px;
+  }
+  
+.heart::before, #heart::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 52px;
+    height: 80px;
+    border-radius: 50px 50px 0 0;
+    background: red;
+  }
+  
+.heart::before {
+    left: 50px;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+  }
+  
+.heart::after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+  }
+  .heart2 {
+    position: relative;
+    width: 100px;
+    height: 90px;
+    margin-top: 10px;
+  }
+  
+.heart2::before, #heart::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 52px;
+    height: 80px;
+    border-radius: 50px 50px 0 0;
+    background: red;
+  }
+  
+.heart2::before {
+    top: -37px;
+    left: -3px;
+    transform: rotate(45deg);
+    transform-origin: 0 100%;
+  }
+  
+.heart2::after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+  }
 
 .item-1 {
     height: 250px;
     width: 33%;
-    
-    background-color: gray;
+    background-color: grey;
     color: yellow;
     justify-content: center;
     align-items: center;
     
 }
+
+.word1 {
+    z-index: 1000;;
+}
+
+/********2 Card Design************/
 
 .item-2 {
     height: 250px;
@@ -93,6 +161,8 @@ section.header {
     
 }
 
+/********3 Card Design************/
+
 .item-3 {
     height: 250px;
     width: 33%;
@@ -110,6 +180,9 @@ section.header {
     
 }
 
+
+/********4 Card Design************/
+
 .item-4 {
     height: 250px;
     width: 33%;
@@ -117,8 +190,13 @@ section.header {
     color: yellow;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 100% 100%;
     
 }
+
+
+/********5 Card Design************/
 
 .item-5 {
     height: 250px;
@@ -130,6 +208,11 @@ section.header {
     
 }
 
+
+
+/********6 Card Design************/
+
+
 .item-6 {
     height: 250px;
     width: 33%;
@@ -139,6 +222,11 @@ section.header {
     align-items: center;
     
 }
+
+
+
+/********7 Card Design************/
+
 
 .item-7 {
     height: 250px;
@@ -150,6 +238,11 @@ section.header {
     
 }
 
+
+
+/********8 Card Design************/
+
+
 .item-8 {
     height: 250px;
     width: 33%;
@@ -159,6 +252,10 @@ section.header {
     align-items: center;
     
 }
+
+
+/********9 Card Design************/
+
 
 .item-9 {
     height: 250px;
